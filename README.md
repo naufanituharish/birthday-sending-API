@@ -64,7 +64,7 @@ This is a simple API to create User and send birthday message
 <br>
 
 ## API Reference
-### 1. Create user 
+### Create user 
 
 End Point:
 ```
@@ -105,7 +105,7 @@ This method has following success response:
 }
 ```
 
-### 2. Read user
+### Read user
 End Point:
 ```
 GET /v1/user
@@ -135,7 +135,7 @@ This method has following success response:
     }
 }
 ```
-### 3. Update user
+### Update user
 End Point:
 ```
 PUT /v1/user
@@ -181,7 +181,7 @@ This method has following success response:
     }
 }
 ```
-### 4. Delete user /v1/user method DELETE
+### Delete user /v1/user method DELETE
 End Point:
 ```
 DELETE /v1/user
@@ -205,7 +205,7 @@ This method has following success response:
     "message": "Success to delete user."
 }
 ```
-### 5. User List
+### User List
 End Point:
 ```
 GET /v1/users
@@ -231,7 +231,7 @@ This method has following success response:
     ]
 }
 ```
-### 6. Update Greeting /v1/users method PUT
+### Update Greeting /v1/users method PUT
 To update greeting message you can use this API End Point
 
 End Point:
@@ -260,7 +260,7 @@ This method has following success response:
     "greeting": <greeting text>
 }
 ```
-### 7. Location List
+### Location List
 End Point:
 ```
 GET /v1/location
