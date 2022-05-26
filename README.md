@@ -181,7 +181,7 @@ This method has following success response:
     }
 }
 ```
-### Delete user /v1/user method DELETE
+### Delete user
 End Point:
 ```
 DELETE /v1/user
@@ -231,7 +231,7 @@ This method has following success response:
     ]
 }
 ```
-### Update Greeting /v1/users method PUT
+### Update greeting
 To update greeting message you can use this API End Point
 
 End Point:
