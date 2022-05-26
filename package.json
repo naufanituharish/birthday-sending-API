@@ -1,0 +1,33 @@
+{
+  "name": "digitalenvision",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "bcrypt-promise": "^2.0.0",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "^4.16.4",
+    "moment": "^2.29.3",
+    "moment-timezone": "^0.5.34",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3",
+    "node-schedule": "^2.1.0",
+    "parse-error": "^0.2.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^6.19.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
