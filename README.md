@@ -88,7 +88,7 @@ Body x-www-form-urlencoded
 | first_name  | String, min: 3, max: 100, required, not null |
 | last_name   | String, min: 3, max: 100, required, not null |
 | dob         | Date, format YYYY-MM-DD                      |
-| location    | String, see available location list at [Location API](###7.-Location-List) |
+| location    | String, see available location list at [Location API](#Location-List) |
 
 This method has following success response:
 ```
@@ -165,7 +165,7 @@ Body x-www-form-urlencoded
 | first_name  | String, min: 3, max: 100, required, not null |
 | last_name   | String, min: 3, max: 100, required, not null |
 | dob         | Date, format YYYY-MM-DD                      |
-| location    | String, see available location list at [Location API](###7.-Location-List) |
+| location    | String, see available location list at [Location API](#Location-List) |
 
 This method has following success response:
 ```
