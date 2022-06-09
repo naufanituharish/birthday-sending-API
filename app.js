@@ -54,7 +54,7 @@ if(CONFIG.app==='dev'){
 app.use(cors());
 
 // Run Schedule every hour
-schedule.scheduleJob('48 * * * *', async ()=> {
+schedule.scheduleJob('0 * * * *', async ()=> {
   console.log('running hourly');
   scheduleService.checkingSchedule();
 });
